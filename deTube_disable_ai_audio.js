@@ -22,7 +22,7 @@
 // @name:hi         deTube AI ऑडियो अक्षम करें
 // @name:th         deTube ปิดใช้งานเสียง AI
 // @name:vi         deTube Tắt Âm thanh AI
-// @version         0.2.11
+// @version         0.2.12 Dev
 // @description     Disables automatically applied AI/translated audio and hides all short-form doom-scroll videos.
 // @description:de  Deaktiviert automatisch angewendete KI-/Übersetzungs-Audios und blendet alle Kurzform-Doomscroll-Videos aus.
 // @description:es  Desactiva el audio traducido por IA aplicado automáticamente y oculta todos los vídeos de formato corto de desplazamiento interminable.
@@ -343,49 +343,6 @@
     document.readyState === 'loading' ?
       document.addEventListener('DOMContentLoaded', init) :
       init();
-  })();
-
-  (function blockShorts() {
-
-    function log(message, level = 'info') {
-      const prefix = "[deTube] [Shorts Block]";
-      switch(level) {
-        case 'error':
-          console.error(`%c${prefix}`, 'color: red; font-weight: bold;', message);
-          break;
-        case 'warn':
-          console.warn(`%c${prefix}`, 'color: orange; font-weight: bold;', message);
-          break;
-        default:
-          console.log(`%c${prefix}`, 'color: green; font-weight: bold;', message);
-      }
-    }
-
-    // Redirect Shorts URL to normal watch URL
-    function redirectIfShortsURL(url) {
-        const shortsRegex = /^https:\/\/(www\.youtube\.com|www\.youtube-nocookie\.com|m\.youtube\.com|music\.youtube\.com)\/shorts\/([a-zA-Z0-9_-]{11})(\?.*)?$/;
-        const match = url.match(shortsRegex);
-        if (match) {
-            const videoId = match[2];
-            const query = window.location.search || '';
-            const newUrl = `https://www.youtube.com/watch?v=${videoId}${query}`;
-            window.location.replace(newUrl);
-        }
-    }
-
-    // Initial check on script start
-    redirectIfShortsURL(window.location.href);
-
-    // Monitor for SPA navigations (URL changes)
-    let lastUrl = location.href;
-    new MutationObserver(() => {
-        const currentUrl = location.href;
-        if (currentUrl !== lastUrl) {
-            lastUrl = currentUrl;
-            redirectIfShortsURL(currentUrl);
-        }
-    }).observe(document, { subtree: true, childList: true });
-
   })();
 
 })();
