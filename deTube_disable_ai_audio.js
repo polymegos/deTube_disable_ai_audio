@@ -22,30 +22,30 @@
 // @name:hi         deTube AI ऑडियो अक्षम करें
 // @name:th         deTube ปิดใช้งานเสียง AI
 // @name:vi         deTube Tắt Âm thanh AI
-// @version         0.2.12 Dev
-// @description     Disables automatically applied AI/translated audio and hides all short-form doom-scroll videos.
-// @description:de  Deaktiviert automatisch angewendete KI-/Übersetzungs-Audios und blendet alle Kurzform-Doomscroll-Videos aus.
-// @description:es  Desactiva el audio traducido por IA aplicado automáticamente y oculta todos los vídeos de formato corto de desplazamiento interminable.
-// @description:fr  Désactive l'audio IA/traduit appliqué automatiquement et masque toutes les vidéos courtes à défilement infini.
-// @description:it  Disattiva l'audio AI/tradotto applicato automaticamente e nasconde tutti i video brevi da scorrimento continuo.
-// @description:pt  Desativa o áudio traduzido por IA aplicado automaticamente e oculta todos os vídeos de formato curto do tipo “doom-scroll”.
-// @description:ru  Отключает автоматически применённый ИИ/переведённый звук и скрывает все короткие видео с бесконечной прокруткой.
-// @description:ja  自動的に適用されるAI/翻訳音声を無効化し、すべての短尺動画のドゥームスクロールを非表示にします。
-// @description:ko  자동으로 적용된 AI/번역 오디오를 비활성화하고 모든 숏폼 둠스크롤 비디오를 숨깁니다.
-// @description:zh-CN 禁用自动启用的AI/翻译音频，并隐藏所有短视频“末日滚动”内容。
-// @description:zh-TW 停用自動套用的AI/翻譯音訊，並隱藏所有短片末日滾動內容。
-// @description:nl  Schakelt automatisch toegepaste AI/vertaalde audio uit en verbergt alle short-form doom-scroll video's.
-// @description:pl  Wyłącza automatycznie stosowane audio AI/tłumaczenia i ukrywa wszystkie krótkie filmy typu doom-scroll.
-// @description:sv  Inaktiverar automatiskt tillämpat AI/översatt ljud och döljer alla kortformade doom-scroll-videor.
-// @description:da  Deaktiverer automatisk anvendt AI/oversat lyd og skjuler alle kortformede doom-scroll-videoer.
-// @description:no  Deaktiverer automatisk brukt AI/oversatt lyd og skjuler alle kortformede doom-scroll-videoer.
-// @description:fi  Poistaa automaattisesti käytetyn AI/käännetyn äänen käytöstä ja piilottaa kaikki lyhyet doom-scroll-videot.
-// @description:tr  Otomatik olarak uygulanan AI/çevrilmiş sesi devre dışı bırakır ve tüm kısa biçimli doom-scroll videolarını gizler.
-// @description:ar  يعطّل الصوت المُترجم أو المطبّق تلقائيًا بالذكاء الاصطناعي ويخفي جميع فيديوهات التمرير القصيرة المملة.
-// @description:he  משבית אודיו AI/מתורגם המופעל אוטומטית ומסתיר את כל סרטוני הדום-סקרול הקצרים.
-// @description:hi  स्वचालित रूप से लागू AI/अनुवादित ऑडियो को अक्षम करता है और सभी शॉर्ट-फॉर्म डूम-स्क्रॉल वीडियो छुपाता है।
-// @description:th  ปิดใช้งานเสียง AI/แปลอัตโนมัติ และซ่อนไว้วิดีโอสั้นๆ แบบ doom-scroll ทั้งหมดบน YT
-// @description:vi  Tắt âm thanh AI/được dịch tự động và ẩn tất cả video dạng ngắn doom-scroll.
+// @version         0.2.12
+// @description     Disables automatically applied AI/translated audio, resets to original audio. Runs automatically, but can also be triggered with CTRL+ALT+R.
+// @description:de  Deaktiviert automatisch angewendeten KI-/Übersetzungs-Ton und stellt den Originalton wieder her. Läuft automatisch, kann aber auch mit STRG+ALT+R ausgelöst werden.
+// @description:es  Desactiva el audio de IA/traducción aplicado automáticamente y restaura el audio original. Se ejecuta automáticamente, pero también puede activarse con CTRL+ALT+R.
+// @description:fr  Désactive l’audio IA/traduit appliqué automatiquement et rétablit l’audio original. Fonctionne automatiquement, mais peut aussi être déclenché avec CTRL+ALT+R.
+// @description:it  Disattiva l’audio AI/tradotto applicato automaticamente e ripristina l’audio originale. Funziona automaticamente, ma può anche essere attivato con CTRL+ALT+R.
+// @description:pt  Desativa o áudio AI/traduzido aplicado automaticamente e restaura o áudio original. Funciona automaticamente, mas também pode ser ativado com CTRL+ALT+R.
+// @description:ru  Отключает автоматически применённый ИИ/переведённый звук и восстанавливает оригинальную дорожку. Работает автоматически, но можно запустить с CTRL+ALT+R.
+// @description:ja  自動で適用されたAI/翻訳音声を無効化し、元の音声に戻します。自動で実行されますが、CTRL+ALT+Rでも起動できます。
+// @description:ko  자동으로 적용된 AI/번역 오디오를 비활성화하고 원래 오디오로 복원합니다. 자동으로 실행되며, CTRL+ALT+R로도 실행할 수 있습니다.
+// @description:zh-CN 禁用自动应用的AI/翻译音频，并恢复原始音频。自动运行，也可通过CTRL+ALT+R手动触发。
+// @description:zh-TW 停用自動套用的AI/翻譯音訊，並恢復原始音訊。會自動執行，也可用 CTRL+ALT+R 觸發。
+// @description:nl  Schakelt automatisch toegepaste AI/vertaalde audio uit en herstelt het originele geluid. Werkt automatisch, maar kan ook handmatig gestart worden met CTRL+ALT+R.
+// @description:pl  Wyłącza automatycznie stosowany dźwięk AI/tłumaczenie i przywraca oryginalny dźwięk. Działa automatycznie, ale można go też uruchomić skrótem CTRL+ALT+R.
+// @description:sv  Inaktiverar automatiskt tillämpat AI/översatt ljud och återställer originalet. Körs automatiskt men kan också aktiveras med CTRL+ALT+R.
+// @description:da  Deaktiverer automatisk anvendt AI/oversat lyd og gendanner originallyden. Kører automatisk, men kan også aktiveres med CTRL+ALT+R.
+// @description:no  Deaktiverer automatisk brukt AI/oversatt lyd og gjenoppretter original lyd. Kjører automatisk, men kan også utløses med CTRL+ALT+R.
+// @description:fi  Poistaa automaattisesti käytetyn AI/käännetyn äänen käytöstä ja palauttaa alkuperäisen äänen. Toimii automaattisesti, mutta voidaan myös käynnistää näppäimillä CTRL+ALT+R.
+// @description:tr  Otomatik olarak uygulanan AI/çeviri sesini devre dışı bırakır ve orijinal sesi geri yükler. Otomatik çalışır, ancak CTRL+ALT+R ile de tetiklenebilir.
+// @description:ar  يعطّل الصوت المترجم أو المطبّق تلقائيًا بالذكاء الاصطناعي ويستعيد الصوت الأصلي. يعمل تلقائيًا، ويمكن تشغيله أيضًا بـ CTRL+ALT+R.
+// @description:he  משבית אודיו AI/מתורגם שמופעל אוטומטית ומשחזר את השמע המקורי. פועל אוטומטית, אך ניתן גם להפעיל עם CTRL+ALT+R.
+// @description:hi  स्वचालित रूप से लागू AI/अनुवादित ऑडियो को अक्षम करता है और मूल ऑडियो को पुनर्स्थापित करता है। यह स्वतः चलता है, लेकिन CTRL+ALT+R से भी सक्रिय किया जा सकता है।
+// @description:th  ปิดเสียง AI/แปลอัตโนมัติที่เปิดใช้งานโดยอัตโนมัติ และคืนค่าเสียงต้นฉบับ ทำงานอัตโนมัติ หรือเรียกใช้ด้วย CTRL+ALT+R ได้
+// @description:vi  Tắt âm thanh AI/được dịch tự động và khôi phục âm thanh gốc. Tự động chạy, nhưng cũng có thể kích hoạt bằng CTRL+ALT+R.
 // @author          polymegos
 // @namespace       https://github.com/polymegos/deTube_disable_ai_audio
 // @supportURL      https://github.com/polymegos/deTube_disable_ai_audio/issues
@@ -117,10 +117,99 @@
       });
     }
 
+    function debounce(func, wait) {
+      let timeout;
+      return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+      };
+    }
+
+    const AUDIO_TRACK_STRINGS = new Set([
+      'audiotrack', 'audio track', 'audio tracks', // English
+      'piste audio', 'pistes audio', 'son', // French
+      'audiospur', 'tonspur', 'audio-spur', // German
+      'pista de audio', 'pista audio', 'audio', // Spanish
+      'traccia audio', 'audio traccia', // Italian
+      'faixa de áudio', 'trilha sonora', // Portuguese
+      'аудиодорожка', 'звуковая дорожка', // Russian
+      'オーディオトラック', '音声トラック', // Japanese
+      '오디오 트랙', '음성 트랙', // Korean
+      '音轨', '音频轨道', // Chinese (Simplified/Traditional)
+      'geluidsspoor', // Dutch
+      'ścieżka dźwiękowa', 'audio ścieżka', // Polish
+      'ljudspår', 'audio spår', // Swedish
+      'lydspor', 'audio spor', // Danish / Norwegian
+      'ääniraita', 'ääni', // Finnish
+      'ses parçası', 'ses izi', // Turkish
+      'מסלול אודיו', 'רצועת אודיו', // Hebrew
+      'เสียง', 'แทร็กเสียง', // Thai
+      'âm thanh', 'bản âm thanh', // Vietnamese
+      'مسار صوتي', 'المسار الصوتي', 'الصوت', // Arabic
+      'ऑडियो ट्रैक', 'ध्वनि पथ', // Hindi
+      'jalur audio', 'trek audio', // Indonesian
+      'trek audio', 'laluan audio', // Malay
+      'ηχητικό κομμάτι', 'ήχος', // Greek
+      'pistă audio', 'traseu audio', // Romanian
+      'zvuková stopa', 'audio stopa', // Czech
+      'hangsáv', 'audió sáv', // Hungarian
+      'аудіодоріжка', 'звукова доріжка', // Ukrainian
+      'аудио пътека', 'звукова пътека', // Bulgarian
+      'অডিও ট্র্যাক', 'শব্দ ট্র্যাক', // Bengali
+      'sauti ya sauti', 'kifuatilia sauti', // Swahili
+      'tunog na landas', // Filipino (Tagalog)
+      'hljóðrás', // Icelandic
+      'audio celiņš', // Latvian
+      'garso takelis', // Lithuanian
+      'zvuková stopa', // Slovak
+      'ઓડિયો ટ્રેક', 'ધ્વનિ પથ' // Gujarati
+    ].map(s => s.toLowerCase()));
+
+    const ORIGINAL_TRACK_STRINGS = new Set([
+      'original',  // English, German, Spanish, Romanian, Indonesian
+      'origine',   // French
+      'originale', // Italian
+      'nativo',    // Portuguese
+      'оригинал',  // Russian
+      'オリジナル',  // Japanese
+      '오리지널',    // Korean
+      '原版', '原声', '原始', // Chinese (Simplified/Traditional)
+      'origineel',    // Dutch
+      'oryginalny',   // Polish
+      'ursprunglig',  // Swedish
+      'opprinnelig',  // Danish / Norwegian
+      'alkuperäinen', // Finnish
+      'orijinal', // Turkish
+      'מקורי',    // Hebrew
+      'ต้นฉบับ', 'ดั้งเดิม', // Thai
+      'nguyên bản', 'gốc', // Vietnamese
+      'الأصلي', 'النسخة الأصلية', // Arabic
+      'मूल', 'असली', // Hindi
+      'asli', // Indonesian
+      'asli', 'asal', // Malay
+      'πρωτότυπο', 'αυθεντικό', // Greek
+      'nativ', // Romanian
+      'původní', 'originální', // Czech
+      'eredeti', // Hungarian
+      'початковий', // Ukrainian
+      'оригинален', 'първоначален', // Bulgarian
+      'মূল', 'আসল', // Bengali
+      'asili', 'halisi', // Swahili
+      'orihinal', 'likas', // Filipino (Tagalog)
+      'frumlegur', // Icelandic
+      'oriģināls', // Latvian
+      'originalus', // Lithuanian
+      'pôvodný', // Slovak
+      'મૂળ' // Gujarati
+    ].map(s => s.toLowerCase()));
+
     function matchesText(el, patternsSet) {
       if (!el?.textContent) return false;
       const text = el.textContent.toLowerCase();
-      return Array.from(patternsSet).some(str => text.includes(str));
+      for (const str of patternsSet) {
+        if (text.includes(str)) return true;
+      }
+      return false;
     }
 
     function hideSettingsMenu() {
@@ -153,83 +242,7 @@
         if (!menu) throw new Error('Settings menu not found');
 
         const items = Array.from(menu.querySelectorAll('.ytp-menuitem'));
-        const audioTrackStrings = [
-                                    'audiotrack', 'audio track', 'audio tracks', // English
-                                    'piste audio', 'pistes audio', 'son', // French
-                                    'audiospur', 'tonspur', 'audio-spur', // German
-                                    'pista de audio', 'pista audio', 'audio', // Spanish
-                                    'traccia audio', 'audio traccia', // Italian
-                                    'faixa de áudio', 'trilha sonora', // Portuguese
-                                    'аудиодорожка', 'звуковая дорожка', // Russian
-                                    'オーディオトラック', '音声トラック', // Japanese
-                                    '오디오 트랙', '음성 트랙', // Korean
-                                    '音轨', '音频轨道', // Chinese (Simplified/Traditional)
-                                    'geluidsspoor', // Dutch
-                                    'ścieżka dźwiękowa', 'audio ścieżka', // Polish
-                                    'ljudspår', 'audio spår', // Swedish
-                                    'lydspor', 'audio spor', // Danish / Norwegian
-                                    'ääniraita', 'ääni', // Finnish
-                                    'ses parçası', 'ses izi', // Turkish
-                                    'מסלול אודיו', 'רצועת אודיו', // Hebrew
-                                    'เสียง', 'แทร็กเสียง', // Thai
-                                    'âm thanh', 'bản âm thanh', // Vietnamese
-                                    'مسار صوتي', 'المسار الصوتي', 'الصوت', // Arabic
-                                    'ऑडियो ट्रैक', 'ध्वनि पथ', // Hindi
-                                    'jalur audio', 'trek audio', // Indonesian
-                                    'trek audio', 'laluan audio', // Malay
-                                    'ηχητικό κομμάτι', 'ήχος', // Greek
-                                    'pistă audio', 'traseu audio', // Romanian
-                                    'zvuková stopa', 'audio stopa', // Czech
-                                    'hangsáv', 'audió sáv', // Hungarian
-                                    'аудіодоріжка', 'звукова доріжка', // Ukrainian
-                                    'аудио пътека', 'звукова пътека', // Bulgarian
-                                    'অডিও ট্র্যাক', 'শব্দ ট্র্যাক', // Bengali
-                                    'sauti ya sauti', 'kifuatilia sauti', // Swahili
-                                    'tunog na landas', // Filipino (Tagalog)
-                                    'hljóðrás', // Icelandic
-                                    'audio celiņš', // Latvian
-                                    'garso takelis', // Lithuanian
-                                    'zvuková stopa' // Slovak
-                                  ];
-        const originalTrackStrings = [
-                                        'original',  // English, German, Spanish, Romanian, Indonesian
-                                        'origine',   // French
-                                        'originale', // Italian
-                                        'nativo',    // Portuguese
-                                        'оригинал',  // Russian
-                                        'オリジナル',  // Japanese
-                                        '오리지널',    // Korean
-                                        '原版', '原声', '原始', // Chinese (Simplified/Traditional)
-                                        'origineel',    // Dutch
-                                        'oryginalny',   // Polish
-                                        'ursprunglig',  // Swedish
-                                        'opprinnelig',  // Danish / Norwegian
-                                        'alkuperäinen', // Finnish
-                                        'orijinal', // Turkish
-                                        'מקורי',    // Hebrew
-                                        'ต้นฉบับ', 'ดั้งเดิม', // Thai
-                                        'nguyên bản', 'gốc', // Vietnamese
-                                        'الأصلي', 'النسخة الأصلية', // Arabic
-                                        'मूल', 'असली', // Hindi
-                                        'asli', // Indonesian
-                                        'asli', 'asal', // Malay
-                                        'πρωτότυπο', 'αυθεντικό', // Greek
-                                        'nativ', // Romanian
-                                        'původní', 'originální', // Czech
-                                        'eredeti', // Hungarian
-                                        'початковий', // Ukrainian
-                                        'оригинален', 'първоначален', // Bulgarian
-                                        'মূল', 'আসল', // Bengali
-                                        'asili', 'halisi', // Swahili
-                                        'orihinal', 'likas', // Filipino (Tagalog)
-                                        'frumlegur', // Icelandic
-                                        'oriģināls', // Latvian
-                                        'originalus', // Lithuanian
-                                        'pôvodný' // Slovak
-                                      ];
-        const audioTrackSet = new Set(audioTrackStrings.map(s => s.toLowerCase()));
-        const originalTrackSet = new Set(originalTrackStrings.map(s => s.toLowerCase()));
-        const audioItem = items.find(el => matchesText(el, audioTrackSet));
+        const audioItem = items.find(el => matchesText(el, AUDIO_TRACK_STRINGS));
         if (!audioItem) {
           log('Audio track menu item not found', 'warn');
           setTimeout(() => clickElement(settingsButton), 200);
@@ -241,7 +254,7 @@
 
         const submenu = document.querySelector('.ytp-settings-menu');
         const subitems = submenu ? Array.from(submenu.querySelectorAll('.ytp-menuitem')) : [];
-        const originalOption = subitems.find(el => matchesText(el, originalTrackSet));
+        const originalOption = subitems.find(el => matchesText(el, ORIGINAL_TRACK_STRINGS));
 
         if (originalOption) {
           clickElement(originalOption);
@@ -296,11 +309,13 @@
         return;
       }
 
-      video.addEventListener('playing', () => {
+      const debouncedAudioHandler = debounce(() => {
         if (!liftFromAudioTrack) {
-          setTimeout(forceOriginalAudioTrack, 500);
+          forceOriginalAudioTrack();
         }
-      }, { once: true });
+      }, 300);
+      
+      video.addEventListener('playing', debouncedAudioHandler, { once: true });
     }
 
     function init() {
